@@ -46,11 +46,11 @@ defaults = {
   "aws"=>{
     "access_key_id"=>ENV['AWS_ACCESS_KEY_ID'],
     "secret_access_key"=>ENV['AWS_SECRET_ACCESS_KEY'],
-    "region"=>"eu-central-1",
+    "region"=>"us-east-1",
     "instance_type"=>"t2.micro"
   },
   "os"=>{
-    "time_zone"=>"Europe/Zurich",
+    "time_zone"=>"America/New_York",
     "packages"=>nil
   },
   "splunk_dirs"=>{
